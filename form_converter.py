@@ -62,6 +62,9 @@ STEPS = [
 
 # Sidebar with step information
 with st.sidebar:
+    st.caption("🔧 Made with ❤️ by ***MK***")
+    st.caption("✉️ muhammad.kh92@gmail.com")
+    st.markdown("---")
     st.info("Navigate through each step to see and edit the changes before exporting the final file.")
     st.markdown("---")
     st.header("Conversion Steps")
@@ -72,9 +75,7 @@ with st.sidebar:
             st.markdown(f"**→ {i+1}. {step}**")
         else:
             st.markdown(f"{i+1}. {step}")
-    st.markdown("---")
-    st.caption("🔧 Made with ❤️ by ***MK***")
-    st.caption("✉️ muhammad.kh92@gmail.com")
+
 
 # Utility functions
 def is_empty(value):
