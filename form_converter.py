@@ -62,7 +62,6 @@ STEPS = [
 
 # Sidebar with step information
 with st.sidebar:
-    st.markdown("---")
     st.info("Navigate through each step to see and edit the changes before exporting the final file.")
     st.markdown("---")
     st.header("Conversion Steps")
