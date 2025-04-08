@@ -37,7 +37,7 @@ if 'edited_dfs' not in st.session_state:
     st.session_state.edited_dfs = {}
 
 # App title and description
-st.title("SurveyCTO to Kobo XLS Form Converter")
+st.title("SurveyCTO to Kobo XLSForm Converter")
 st.markdown("""
 This app converts SurveyCTO XLS forms to Kobo-compatible XLSForms following a standardized pipeline.
 You can navigate through each step of the conversion process, view and edit the data at each step.
