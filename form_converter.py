@@ -62,6 +62,9 @@ STEPS = [
 
 # Sidebar with step information
 with st.sidebar:
+    st.markdown("---")
+    st.info("Navigate through each step to see and edit the changes before exporting the final file.")
+    st.markdown("---")
     st.header("Conversion Steps")
     
     # Show all steps with the current one highlighted
@@ -70,9 +73,6 @@ with st.sidebar:
             st.markdown(f"**→ {i+1}. {step}**")
         else:
             st.markdown(f"{i+1}. {step}")
-    
-    st.markdown("---")
-    st.info("Navigate through each step to see and edit the changes before exporting the final file.")
     st.markdown("---")
     st.caption("🔧 Made with ❤️ by ***MK***")
     st.caption("✉️ muhammad.kh92@gmail.com")
